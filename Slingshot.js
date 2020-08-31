@@ -16,14 +16,11 @@ var option={
  display(){
     if(this.sling.bodyA != null){
      var posA = this.sling.bodyA.position;
-     
      var posB = this.point2;
      push();
-     var anchor1X = posA.x;
-     var anchor1Y = posA.y;
+    
      
-     
-     line(anchor1X, anchor1Y);
+     line(posA.x, posA.y, posB.x, posB.y);
      pop();
     }
  }  

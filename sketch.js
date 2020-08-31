@@ -96,164 +96,168 @@ function setup() {
   box79 = new Box(900, 60, 20, 30)
 
   shp = new Shape(150, 120, 60,60)
-  sling = new Slingshot(shp.body, {x:70, y:120, w:60, h:60} )
+  sling = new Slingshot(shp.body, {x:150, y:120, w:60, h:60} )
   
 }
 
 function draw() {
   background('skyblue'); 
- 
+  fill(225)
+  textSize(40)
+    text('SCORE  /  '+score, 750, 40)
+  
   Engine.update(engine);
 
   ground.display();
   ground2.display();
   box1.display();
-  
+  box1.score();
   box2.display();
-  
+  box2.score();
   box3.display();
-  
+  box3.score();
   box4.display();
-  
+  box4.score();
   box5.display();
-  
+  box5.score();
   box6.display();
-  
+  box6.score();
   box7.display();
-  
+  box7.score();
   box8.display();
-  
+  box8.score();
   box9.display();
-  
+  box9.score();
   box10.display();
-  
+  box10.score();
   box11.display();
- 
+  box11.score();
   box12.display();
-  
+  box12.score();
   box13.display();
-  
+  box13.score();
   
   box15.display();
- 
+  box15.score();
   box16.display();
-  
+  box16.score();
   box17.display();
- 
+  box17.score();
   box18.display();
-  
+  box18.score();
   box19.display();
- 
+  box19.score();
   box20.display();
-  
+  box20.score();
   box21.display();
- 
+  box21.score();
   box22.display();
- 
+  box22.score();
   box23.display();
-  
+  box23.score();
   box24.display();
-  
+  box24.score();
   
   box26.display();
-  
+  box26.score();
   box27.display();
-  
+  box27.score();
   box28.display();
-  
+  box28.score();
   box29.display();
-  
+  box29.score();
   box30.display();
- 
+  box30.score();
   box31.display();
- 
+  box31.score();
   box32.display();
-  
+  box32.score();
 
   box34.display();
- 
+  box34.score();
   box35.display();
-  
+  box35.score();
   box36.display();
-  
+  box36.score();
   box37.display();
-  
+  box37.score();
   box39.display();
-  
+  box39.score();
 
   box41.display();
- 
+  box41.score();
   box42.display();
-  
+  box42.score();
   box43.display();
-  
+  box43.score();
   box44.display();
-  
+  box44.score();
   box45.display();
- 
+  box45.score();
   box46.display();
-  
+  box46.score();
   box47.display();
- 
+  box47.score();
   box48.display();
- 
+  box48.score();
   box49.display();
-  
+  box49.score();
   box50.display();
-  
+  box50.score();
   box51.display();
-  
+  box51.score();
   box52.display();
-  
+  box52.score();
   box53.display();
-  
+  box53.score();
 
   box55.display();
-  
+  box55.score();
   box56.display();
-  
+  box56.score();
   box57.display();
- 
+  box57.score();
   box58.display();
-  
+  box58.score();
   box59.display();
-  
+  box59.score();
   box60.display();
-  
+  box60.score();
   box61.display();
-  
+  box61.score();
   box62.display();
-  
+  box62.score();
   box63.display();
-  
+  box63.score();
   box64.display();
- 
+  box64.score();
+
   box66.display();
-  
+  box66.score();
   box67.display();
-  
+  box67.score();
   box68.display();
-  
+  box68.score();
   box69.display();
-  
+  box69.score();
   box70.display();
-  
+  box70.score();
   box71.display();
- 
+  box71.score();
   box72.display();
- 
+  box72.score();
 
   box74.display();
-  
+  box74.score();
   box75.display();
- 
+  box75.score();
   box76.display();
-  
+  box76.score();
   box77.display();
- 
+  box77.score();
 
   box79.display();
-  
+  box79.score();
 
   shp.display();
   sling.display();
