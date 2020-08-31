@@ -5,7 +5,7 @@ var option={
     bodyA:body1,
     pointB:point2,
     length:2,
-    stiffness:0.4,
+    stiffness:0.04,
  }
  fill(0)
  this.sling = Constraint.create(option);
